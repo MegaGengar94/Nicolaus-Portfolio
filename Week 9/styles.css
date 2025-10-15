@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(220, 220, 220);
+}
+ 
+h2, p {
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+ 
+h2 {
+    color: #0088DD;
+    border-bottom: 1px solid #0088DD;
+}
+ 
+p {
+    min-height: 10px;
+    max-height: 60px;
+    overflow: scroll;
+    border: 1px dotted gray;
+}
+ 
+main {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    height: fit-content;
+    padding: 0.4rem 1.2rem;
+    margin: 2em auto 0;
+    border-radius: 1em;
+    background-color: rgb(240, 240, 240);
+    border-top: white 0.1em solid;
+}

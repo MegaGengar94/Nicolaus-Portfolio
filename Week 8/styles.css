@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: rgb(20, 20, 20);
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+section {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 1rem 2rem;
+    padding: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.4rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+ 
+h1 {
+    /* 2x Base font size (16px) */
+    font-size: 2em;
+}
+ 
+p:first-letter {
+    font-size: 2rem;
+}
+ 
+/* Unvisited */
+a:link {
+    color: orange;
+}
+ 
+/* Visited */
+a:visited {
+    color: pink;
+}
+ 
+/* Cursor over text */
+a:hover {
+    color: white;
+}
+ 
+#pykraken {
+    color: #77c59b;
+    font-style: italic;
+}
+ 
+#css {
+    color: rgb(199, 77, 77);
+    font-weight: bold;
+}

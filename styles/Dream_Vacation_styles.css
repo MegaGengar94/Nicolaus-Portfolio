@@ -4,3 +4,7 @@ body {
 footer {
     background-color: white;
 }
+h1 {
+    color: yellow;
+    border-bottom: 3px solid yellow;
+}

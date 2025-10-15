@@ -1,0 +1,19 @@
+body {
+    background-color: #6577e6;
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+section {
+        background-color: rgba(255, 255, 255, 0.1);
+    margin: 1rem 1rem;
+    padding: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.4rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+h1 {
+    color: snow;
+    border-bottom: 3px solid snow;
+}

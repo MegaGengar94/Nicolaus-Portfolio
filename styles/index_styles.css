@@ -1,0 +1,27 @@
+body {
+    background-color: #6577e6;
+    color: snow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+    background-color: white;
+}
+
+/* Unvistited */
+a:link {
+    color: salmon;
+}
+ 
+/* Visited */
+a:visited {
+    color: rebeccapurple;
+}
+ 
+/* Cursor over text */
+a:hover {
+    color: white;
+}
+h1 {
+    color: snow;
+    border-bottom: 3px solid snow;
+}
