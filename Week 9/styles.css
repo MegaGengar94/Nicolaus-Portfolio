@@ -1,6 +1,24 @@
 body {
     background-color: rgb(220, 220, 220);
 }
+
+nav {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 3rem;
+}
+
+nav>ul {
+    list-style:none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    /* Horizontal Align */
+    padding-left: 0;
+    /* Vertical Align */
+    align-items: center;
+    margin: 0;
+    height: 3rem;
+}
  
 h2, p {
     width: 400px;
