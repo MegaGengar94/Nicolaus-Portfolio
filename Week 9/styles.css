@@ -48,3 +48,13 @@ main {
     background-color: rgb(240, 240, 240);
     border-top: white 0.1em solid;
 }
+
+.container {
+    border: 2px dashed black;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 84
+    }
+}
